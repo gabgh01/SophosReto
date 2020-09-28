@@ -1,0 +1,11 @@
+*/.gradle
+*/.idea
+*/history
+*/target
+*/bin
+
+.gradle
+.idea
+history
+target
+bin
