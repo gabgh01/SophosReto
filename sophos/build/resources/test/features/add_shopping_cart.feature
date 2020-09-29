@@ -6,6 +6,6 @@ Feature: add product in shopping cart
   Scenario: add product
     Given Juan as user is in home page
     When search product and add the product to shopping cart
-    |name product|quantity|
-    |Jab  |2       |
+      | name product | quantity |
+      | Aceite       | 2        |
     Then should see the product
