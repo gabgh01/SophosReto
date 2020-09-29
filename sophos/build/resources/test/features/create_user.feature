@@ -5,8 +5,8 @@ Feature: create user in gorest
 
   Scenario: creation user
     Given Gabriel has add a new user
-    |name|gender|email|status|
-    |Gabriel|Male|gabgh@gmail.com|Active|
+      | name    | gender | email           | status |
+      | Gabriel | Male   | gabgh@gmail.com | Active |
     When consult the new user
     Then should see the user add consult method in api
 
